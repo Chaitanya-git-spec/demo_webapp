@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send("Hello from Azure App Service 🚀");
+  res.send("Welcome to Batch13 🚀");
 });
 
 const port = process.env.PORT || 3000;
